@@ -18,3 +18,7 @@ def index():
 @app.get("/student/{student_id}")
 def get_student(student_id: int):
     return Students[student_id]
+
+
+def any_func():
+    pass
